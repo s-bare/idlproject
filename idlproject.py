@@ -4,9 +4,6 @@ import numpy as np
 import datetime
 import pydeck as pdk
 import matplotlib.pyplot as plt
-# import seaborn as sns
-import plotly as px
-import altair as alt
 
 st.set_page_config(layout="wide")
 
