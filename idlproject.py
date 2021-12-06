@@ -10,31 +10,32 @@ st.set_page_config(layout="wide")
 st.title("""UNDERSTANDING POLITICAL POLARISATION USING NLP""")
 
 
-url = 'https://drive.google.com/file/d/1D96k1no_9BGQ55YLARWHTyPFf43eOVle/view?usp=sharing'
+url = 'https://drive.google.com/file/d/1b4Qe1Nl96J57NOFiaR6X-GUq4xqeqwXc/view?usp=sharing'
 path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
-# d_pol = pd.read_csv(path)
-d_pol = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\distances_political.csv")
+path=('distances_political.csv')
+d_pol = pd.read_csv(path)
+# d_pol = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\distances_political.csv")
 
 
 url = 'https://drive.google.com/file/d/1-9UtNi1wQ055iquSINU6alz1o_HIrmHZ/view?usp=sharing'
 path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
-# d_bag = pd.read_csv(path)
-d_bag = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\distances.csv")
+d_bag = pd.read_csv(path)
+# d_bag = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\distances.csv")
 
-url = 'https://drive.google.com/file/d/1--zUf5wJ56Tv40qqH92JsqiTrjTUwXjO/view?usp=sharing'
+url = 'https://drive.google.com/file/d/1lioN6BLkHSwVJIqMfhwz4NH7xUNZ8FTn/view?usp=sharing'
 path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
-# pol = pd.read_csv(path)
-pol = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\indices_political.csv")
+pol = pd.read_csv(path)
+# pol = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\indices_political.csv")
 
 url = 'https://drive.google.com/file/d/1-3E1rLV-ZjM0iP8kX_YmBvApHDScv8Ad/view?usp=sharing'
 path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
-# bag = pd.read_csv(path)
-bag = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\indices.csv")
+bag = pd.read_csv(path)
+# bag = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\indices.csv")
 
 url = 'https://drive.google.com/file/d/1-AmrSyx3xB247D5CeZ7HUx7N2eY2aezF/view?usp=sharing'
 path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
-# name_party = pd.read_csv(path)
-name_party = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\index_name_party.csv")
+name_party = pd.read_csv(path)
+# name_party = pd.read_csv(r"C:\Users\supreethbare\Downloads\idlstreamlit\idlproject\index_name_party.csv")
 
 party = st.radio(
     "Select the Party",
